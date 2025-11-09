@@ -166,15 +166,6 @@ The application is built using a client-server model with WebSocket-based real-t
 
 ---
 
-## Code Flow Summary
-
-
-User Action → canvas.js → websocket.js → server.js → drawing-state.js
-            ↘ Updates broadcast → All clients update their canvases
-
-
----
-
 ## Scalability and Future Plans
 
 * Shift from in-memory storage to a database-based persistence layer (MongoDB or Redis).  

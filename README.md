@@ -11,23 +11,24 @@ No frameworks or external libraries like Socket.io were used. The focus was to b
 1. **Clone the repository**
 
    
-   git clone https://github.com/<your-username>/collaborative-canvas.git
+   git clone https://github.com/oorjithareddy/collaborative-canvas
+   
    cd collaborative-canvas
    
 
-2. **Install the dependencies**
+3. **Install the dependencies**
 
    
    npm install
    
 
-3. **Run the server**
+4. **Run the server**
 
    
    npm start
    
 
-4. **Open the application**
+5. **Open the application**
 
    Open your browser and visit:  
    http://localhost:3000

@@ -16,19 +16,7 @@ All communication between the client and server takes place over WebSockets usin
 
 ---
 
-## Data Flow Diagram
-
-+-------------+ WebSocket +----------------+
-| Client A | <---------------------> | Server |
-| (Canvas) | | (State Manager)|
-+-------------+ +----------------+
-| ^
-| |
-v |
-+-------------+ WebSocket +----------------+
-| Client B | <---------------------> | Server |
-| (Canvas) | | (State Manager)|
-+-------------+ +----------------+
+## Data Flow
 
 1. A user performs a drawing action on the client canvas.
 2. The client sends stroke data (coordinates, color, width) to the server.
